@@ -38,7 +38,7 @@ public class CustomJTabbedPane extends JTabbedPane
 
                 jtabbedpane.addTab("title", new CustomJPanel___Empty());
 
-                jtabbedpane.setTabComponentAt(index+1, new CustomJPanel___Empty());
+                jtabbedpane.setTabComponentAt(index+1, new ButtonTabComponent(jtabbedpane));
 
                 jtabbedpane.setSelectedIndex(index);
 
